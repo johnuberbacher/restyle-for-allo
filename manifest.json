@@ -6,8 +6,7 @@
   "description": "Modifies the CSS and HTML of Allo for Web wrapper",
  
   "content_scripts": [{
-    "css": ["styles.css"],
-    "js": ["content.js"],
+    "css": ["style.css"],
     "matches": ["https://allo.google.com/web"]
   }]
  
