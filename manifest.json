@@ -6,7 +6,6 @@
   "permissions": [
     "tabs", "<all_urls>","storage","browsingData"
   ],
-  "options_page": "options.html",
   "icons": { 
     "16":"images/icon-32.png", 
     "48":"images/icon-64.png", 
@@ -19,6 +18,7 @@
   }, 
   "content_scripts": [{
     "css": ["style.css"],
+    "js": ["popup.js"],
     "matches": ["https://allo.google.com/web"]
   }]
 
