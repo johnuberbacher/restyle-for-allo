@@ -1,2 +1,2 @@
 # restyle-for-allo
-css override for allo
+Modifies CSS and HTML of Allo for Web
