@@ -1,5 +1,5 @@
 # ReStyle for Allo (for web!)
-A Chrome Extension aimed at modifying and improving on Allo for Web's UI styles that I wasn't to keen about.
+A Chrome Extension aimed at modifying and improving on Allo for Web's user-interface.
 
 ## Current Changes 
 - Remove the hover effect on the input field and flatten it down
