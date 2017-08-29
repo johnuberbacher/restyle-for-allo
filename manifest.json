@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "ReStyle for AlloWeb",
-  "version": "0.1.0",
-  "description": "Modifies and helps improve on Allo for Web's styles.",
+  "name": "ReStyle for Allo",
+  "version": "0.1.2",
+  "description": "A Chrome Extension aimed at modifying and improving on Allo for Web's user-interface.",
   "permissions": [
-    "tabs", "<all_urls>","storage","browsingData"
+    "tabs", "https://allo.google.com/web","storage"
   ],
   "icons": { 
     "16":"images/icon-32.png", 

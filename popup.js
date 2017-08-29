@@ -1,23 +1,49 @@
 function save_options() {
-  var disableSticker = document.getElementById('disableSticker').checked;
+  var darkMode = document.getElementById('darkMode').checked;
   chrome.storage.sync.set({
-    disableSticker: disableSticker
+    darkMode: darkMode
   }, 
   function() {
-    var status = document.getElementById('status');
+    var status = document.getElementById('save');
+	if(document.getElementById('darkMode').checked){
+		chrome.tabs.executeScript({
+			file: 'darkMode.js'
+		  }); 
+		}else{
+	  chrome.tabs.executeScript({
+	    file: 'false.js'
+	  }); 
+	}   
     status.textContent = 'Options saved.';
     setTimeout(function() {
-      status.textContent = '';
-    }, 150);
+      status.textContent = 'Save Settings';
+    }, 1250);
+	setTimeout(function(){
+	   window.close(); 
+	}, 1250);
   });
 }
 function load_options() {
   chrome.storage.sync.get({
-    disableSticker: false
+    darkMode: false
   }, function(items) {
     var status = document.getElementById('status');
-    document.getElementById('disableSticker').checked = items.disableSticker;
+    document.getElementById('darkMode').checked = items.darkMode;
+	if(document.getElementById('darkMode').checked){
+		chrome.tabs.executeScript({
+			file: 'darkMode.js'
+		  }); 
+		}else{
+	  chrome.tabs.executeScript({
+	    file: 'false.js'
+	  }); 
+	}
   });
 }
+
+window.onload=function(){
+     console.log("page load!");
+}
+
 document.addEventListener('DOMContentLoaded', load_options);
 document.getElementById('save').addEventListener('click', save_options);
