@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Restyle for AlloWeb",
+  "name": "ReStyle for AlloWeb",
   "version": "0.1.0",
-  "description": "Modifies the CSS and HTML of Allo for Web wrapper",
+  "description": "Modifies and helps improve on Allo for Web's styles.",
   "permissions": [
     "tabs", "<all_urls>","storage","browsingData"
   ],
@@ -13,7 +13,7 @@
   }, 
   "browser_action": { 
   	"default_icon": "images/icon-64.png", 
-    "default_title":"Restyle for AlloWeb",
+    "default_title":"ReStyle for AlloWeb",
     "default_popup": "popup.html"
   }, 
   "content_scripts": [{
