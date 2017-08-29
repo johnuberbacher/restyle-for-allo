@@ -1,6 +1,15 @@
 # ReStyle for Allo (for web!)
-A chrome extension aimed at modifying and improving on Allo for Web's current styles
-The extension currently changes the input field from hovering into a flat design, it also increases the width of the chat area and decrease the width of the side nav.
+A Chrome Extension aimed at modifying and improving on Allo for Web's user-interface.
+
+## Current Changes 
+- Remove the hover effect on the input field and flatten it down
+- Increase the width and adjust the margins on the chat area
+- Reduced shadows on shared images/media and header
+- Reduced the width of the contact list when in desktop mode
+
+## To-Do
+- [ ] Disable/Enable Stickers button (I never use em :P)
+- [ ] Disable/Enable Emoji button (For the crazy people)
 
 ## Current Comparisons 
 Before:
@@ -12,3 +21,9 @@ After:
 <p align="center">
   <img width="100%" height="auto" src="http://i.imgur.com/hdRfdoR.png">
 </p>
+
+## Collaborations
+Welcome, of course!
+
+## Liscence
+MIT
