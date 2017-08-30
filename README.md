@@ -8,6 +8,7 @@ A Chrome Extension aimed at modifying and improving on Allo for Web's user-inter
 - Reduced the width of the contact list when in desktop mode
 
 ## To-Do
+- [ ] "True" Dark Mode Theme
 - [ ] Disable/Enable Stickers button (I never use em :P)
 - [ ] Disable/Enable Emoji button (For the crazy people)
 
