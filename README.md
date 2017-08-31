@@ -20,6 +20,11 @@ Before:
 
 After:
 <p align="center">
+  <img width="100%" height="auto" src="http://i.imgur.com/sYVloZ9.png">
+</p>
+
+## Dark Mode (Experimental!)
+<p align="center">
   <img width="100%" height="auto" src="http://i.imgur.com/ovzG2Zw.png">
 </p>
 
