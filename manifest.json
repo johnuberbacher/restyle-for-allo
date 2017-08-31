@@ -19,7 +19,8 @@
   "content_scripts": [{
     "css": ["style.css"],
     "js": ["popup.js"],
-    "matches": ["https://allo.google.com/web"]
+    "matches": ["https://allo.google.com/web"],
+    "run_at": "document_start"
   }]
 
 }
