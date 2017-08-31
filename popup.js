@@ -5,15 +5,15 @@ function save_options() {
   }, 
   function() {
     var status = document.getElementById('save');
-	if(document.getElementById('darkMode').checked){
-		chrome.tabs.executeScript({
-			file: 'darkMode.js'
-		  }); 
-		}else{
-	  chrome.tabs.executeScript({
-	    file: 'false.js'
-	  }); 
-	}   
+	if (!(document.getElementById('darkMode').checked)) {
+        chrome.tabs.executeScript({
+		  file: 'vanilla.js'
+		})
+    } else {
+        chrome.tabs.executeScript({
+		  file: 'darkMode.js'
+		}); 
+    } 
     status.textContent = 'Options saved.';
     setTimeout(function() {
       status.textContent = 'Save Settings';
@@ -29,20 +29,16 @@ function load_options() {
   }, function(items) {
     var status = document.getElementById('status');
     document.getElementById('darkMode').checked = items.darkMode;
-	if(document.getElementById('darkMode').checked){
-		chrome.tabs.executeScript({
-			file: 'darkMode.js'
-		  }); 
-		}else{
-	  chrome.tabs.executeScript({
-	    file: 'false.js'
-	  }); 
-	}
+	if (!(document.getElementById('darkMode').checked)) {
+        chrome.tabs.executeScript({
+		  file: 'vanilla.js'
+		})
+    } else {
+        chrome.tabs.executeScript({
+		  file: 'darkMode.js'
+		}); 
+    }
   });
-}
-
-window.onload=function(){
-     console.log("page load!");
 }
 
 document.addEventListener('DOMContentLoaded', load_options);
