@@ -15,12 +15,12 @@ A Chrome Extension aimed at modifying and improving on Allo for Web's user-inter
 ## Current Comparisons 
 Before:
 <p align="center">
-  <img width="100%" height="auto" src="http://i.imgur.com/ubWwVfM.png">
+  <img width="100%" height="auto" src="http://i.imgur.com/sYVloZ9.png">
 </p>
 
 After:
 <p align="center">
-  <img width="100%" height="auto" src="http://i.imgur.com/sYVloZ9.png">
+  <img width="100%" height="auto" src="http://i.imgur.com/ubWwVfM.png">
 </p>
 
 ## Dark Mode (Experimental!)
