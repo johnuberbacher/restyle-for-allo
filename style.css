@@ -31,3 +31,7 @@ body.darkMode h3.conversations-view { color: #cfd8dc!important; }
 body.darkMode #conversationName.wireball-app { color: #cfd8dc!important; }
 body.darkMode .stacked.compose-bar #actions.compose-bar { background-color: #34373c!important; }
 body.darkMode paper-icon-button { color: #cfd8dc!important; }
+body.darkMode #menu.wb-emoji-picker, body.darkMode .style-scope.wb-sticker-picker { background-color: #34373c!important; }
+body.darkMode #chip.wb-bot-chip { background-color: rgba(255,255,255,0.1)!important; color: #cfd8dc!important; }
+body.darkMode #startChatButton.wireball-app:hover, body.darkMode#startChatButton.wireball-app:focus { background-color: #4a4d51!important;  }
+
