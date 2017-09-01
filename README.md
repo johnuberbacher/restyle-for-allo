@@ -6,26 +6,27 @@ A Chrome Extension aimed at modifying and improving on Allo for Web's user-inter
 - Increase the width and adjust the margins on the chat area
 - Reduced shadows on shared images/media and header
 - Reduced the width of the contact list when in desktop mode
+- Optional Dark Mode Theme
 
 ## To-Do
-- [ ] "True" Dark Mode Theme
+- [x] "True" Dark Mode Theme
 - [ ] Disable/Enable Stickers button (I never use em :P)
 - [ ] Disable/Enable Emoji button (For the crazy people)
 
 ## Current Comparisons 
-Before:
+### Before:
 <p align="center">
   <img width="100%" height="auto" src="http://i.imgur.com/sYVloZ9.png">
 </p>
 
-After:
+### After:
 <p align="center">
-  <img width="100%" height="auto" src="http://i.imgur.com/ubWwVfM.png">
+  <img width="100%" height="auto" src="http://i.imgur.com/iCbHXIp.png">
 </p>
 
-## Dark Mode (Experimental!)
+### Dark Mode
 <p align="center">
-  <img width="100%" height="auto" src="http://i.imgur.com/ovzG2Zw.png">
+  <img width="100%" height="auto" src="http://i.imgur.com/O4GyoE4.png">
 </p>
 
 ## Collaborations
