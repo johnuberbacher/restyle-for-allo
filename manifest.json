@@ -13,7 +13,7 @@
       "48":"images/icon-64.png", 
       "128":"images/icon-128.png" 
 	},
-    "default_title": "ReStyle for AlloWeb",
+    "default_title": "ReStyle for Allo",
     "default_popup": "popup.html"
   }, 
   "permissions": [ "activeTab","https://allo.google.com/web","storage" ],
