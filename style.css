@@ -63,3 +63,4 @@ body.darkMode .themedSendButton rect { fill: #353536!important; }
 body.darkMode .themedSendButton.active { opacity: 1!important; }
 body.darkMode #cwAction ellipse { stroke: #cfd8dc!important; }
 body.darkMode #container.wb-gif-search:not(.popped-out) #searchBar.wb-gif-search { background: #353536!important; border-bottom: 1px solid #444442!important; border-radius: 0px!important; }
+body.darkMode .input-content.paper-input-container input { color: #CFD8DC!important; }
