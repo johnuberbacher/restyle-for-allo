@@ -13,6 +13,15 @@ wireball-app { --conversations-width-full: 300px!important; --info-width: 300px!
 #container.user-media-message, .conversationHeader.wireball-app { box-shadow: 0 1px 2px rgba(46, 58, 59, 0.25)!important; }
 #outer.scrolling-messages-list, #inner.scrolling-messages-list { max-width: 100%!important; }
 .sendIcon.compose-bar { padding: 13px; margin: 0 12px 0 2px!important; }
+app-toolbar,#topBar.wb-empty-state-view { height: 51px!important; }
+app-toolbar.wireball-app { min-height: 40px!important; }
+#startChatButton.wireball-app, .conversation_item.conversations-view { padding: 10px 0!important; }
+#conversationName.wireball-app, #startChatButtonString.wireball-app { font-size: 14px!important; }
+#avatar.wb-avatar-image { height: 32px!important; width: 32px!important; }
+iron-icon { width: 15px!important; height: 15px!important; }
+#allo-logo.wireball-app, iron-icon.paper-icon-button { width: var(--iron-icon-width, 20px)!important; height: var(--iron-icon-height, 20px)!important; }
+.info.conversations-view h3.conversations-view { font-size: 14px!important; }
+nav.condensed.wireball-app:not(.open) #startChatButtonIcon.wireball-app { margin: 0 20px!important; }
 /* Dark Theme */
 body.darkMode { background-color: #141518!important; }
 body.darkMode .conversationHeader { background-color: #353536!important;}
@@ -64,3 +73,4 @@ body.darkMode .themedSendButton.active { opacity: 1!important; }
 body.darkMode #cwAction ellipse { stroke: #cfd8dc!important; }
 body.darkMode #container.wb-gif-search:not(.popped-out) #searchBar.wb-gif-search { background: #353536!important; border-bottom: 1px solid #444442!important; border-radius: 0px!important; }
 body.darkMode .input-content.paper-input-container input { color: #CFD8DC!important; }
+body.darkMode .info.conversations-view #muted.conversations-view svg { fill: #cfd8dc!important; }
