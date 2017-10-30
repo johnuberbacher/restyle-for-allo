@@ -22,7 +22,14 @@ iron-icon { width: 15px!important; height: 15px!important; }
 #allo-logo.wireball-app, iron-icon.paper-icon-button { width: var(--iron-icon-width, 20px)!important; height: var(--iron-icon-height, 20px)!important; }
 .info.conversations-view h3.conversations-view { font-size: 14px!important; }
 nav.condensed.wireball-app:not(.open) #startChatButtonIcon.wireball-app { margin: 0 20px!important; }
-#pickerContainer.wb-compose-pickers { border-radius: 0px!important; }
+#pickerContainer.wb-compose-pickers, 
+#searchBar.wb-gif-search, 
+#menu.wb-sticker-picker,
+#menu.wb-emoji-picker,
+#container.wb-content-wizard,
+#scrollLeft.wb-content-wizard, 
+#scrollRight.wb-content-wizard, 
+#picker.wb-emoji-picker:not(.popped-out), { border-radius: 0px!important; }
 /* Dark Theme */
 body.darkMode { background-color: #141518!important; }
 body.darkMode .conversationHeader { background-color: #353536!important;}
