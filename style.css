@@ -49,7 +49,7 @@ body.darkMode .stacked.compose-bar #actions.compose-bar { background-color: #353
 body.darkMode #menu.wb-emoji-picker, body.darkMode .style-scope.wb-sticker-picker { background-color: #353536!important; }
 body.darkMode #chip.wb-bot-chip { background-color: rgba(255,255,255,0.1)!important; color: #cfd8dc!important; }
 body.darkMode .themedBackground { background-image: none; background-color: #141518!important; }
-body.darkMode #startChatButton.wireball-app:hover, body.darkMode#startChatButton.wireball-app:focus { background-color: #434343!important;  }
+body.darkMode #startChatButton.wireball-app:hover, body.darkMode #startChatButton.wireball-app:focus { background-color: #434343!important;  }
 body.darkMode .layout.horizontal.fillParent.themedBackground.style-scope.wireball-app.iron-selected { background-color: #141518!important; }
 body.darkMode .themedDeliveryIconDelivered { fill: #FFFFFF!important; }
 body.darkMode .themedDeliveryIconInProgress { fill: #FFFFFF!important; stroke: #FFFFFF!important; }
