@@ -22,6 +22,7 @@ iron-icon { width: 15px!important; height: 15px!important; }
 #allo-logo.wireball-app, iron-icon.paper-icon-button { width: var(--iron-icon-width, 20px)!important; height: var(--iron-icon-height, 20px)!important; }
 .info.conversations-view h3.conversations-view { font-size: 14px!important; }
 nav.condensed.wireball-app:not(.open) #startChatButtonIcon.wireball-app { margin: 0 20px!important; }
+#pickerContainer.wb-compose-pickers { border-radius: 0px!important; }
 /* Dark Theme */
 body.darkMode { background-color: #141518!important; }
 body.darkMode .conversationHeader { background-color: #353536!important;}
@@ -74,3 +75,4 @@ body.darkMode #cwAction ellipse { stroke: #cfd8dc!important; }
 body.darkMode #container.wb-gif-search:not(.popped-out) #searchBar.wb-gif-search { background: #353536!important; border-bottom: 1px solid #444442!important; border-radius: 0px!important; }
 body.darkMode .input-content.paper-input-container input { color: #CFD8DC!important; }
 body.darkMode .info.conversations-view #muted.conversations-view svg { fill: #cfd8dc!important; }
+body.darkMode #pickerContainer.wb-compose-pickers { background-color: rgb(53, 53, 54)!important; border-bottom: 1px solid rgb(68, 68, 66) !important; }
