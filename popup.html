@@ -29,6 +29,7 @@
 	  border: none;
 	  border-radius: 6px;
 	  display: inline-block;
+	  margin-top: 10px;
 	  padding: 10px 15px; 
 	  font-size: 13px; 
 	  font-family: 'Roboto', sans-serif; }
@@ -44,18 +45,15 @@
   </div>
   <div class="content">
     <label>
-      <input type="checkbox" id="darkMode" value="">
+      <input type="checkbox" id="darkMode">
       Dark Mode (Experimental)
     </label>
     <label>
-      <input type="checkbox" id="disableSticker" value="" disabled>
-      Disable Stickers
+      <input type="checkbox" id="floatingWindow">
+      Open Allo in New Window (Experimental)
     </label>
-    <label>
-      <input type="checkbox" id="disableEmoji" value="" disabled>
-      Disable Emoji
     </label>
-    <button id="save" >Save Settings</button>
+    <button id="save">Save Settings</button>
   </div>
   <script src="popup.js"></script>
 </body>
