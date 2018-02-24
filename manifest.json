@@ -16,6 +16,15 @@
     "default_title": "ReStyle for Allo",
     "default_popup": "popup.html"
   }, 
+  "commands": {
+	  "open-window": {
+		"suggested_key": {
+		  "default": "Alt+A"
+		},
+		"description": "Open Allo Window",
+		"global": true
+	  }
+	},
   "permissions": [ "https://allo.google.com/web", "storage" ],
   "content_scripts": [{
     "matches": ["https://allo.google.com/web"],
