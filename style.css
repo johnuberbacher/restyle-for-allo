@@ -1,5 +1,4 @@
 /* Global Override */
-body { border-top: 1px solid #e1e1e1!important; }
 wireball-app { --conversations-width-full: 300px!important; --info-width: 300px!important; }
 #inner {  margin: 0px 24px!important; }
 #composer.messages-view { bottom: 0px!important; }
@@ -11,15 +10,15 @@ wireball-app { --conversations-width-full: 300px!important; --info-width: 300px!
   border-top: 1px solid #e1e1e1!important;
   border-radius: 0px!important; }
 .stacked.compose-bar #actions.compose-bar { border-radius: 0px!important; }
-#container.user-media-message, .conversationHeader.wireball-app { box-shadow: none!important; border-bottom: 1px solid rgb(225, 225, 225)!important; }
+#container.user-media-message, .conversationHeader.wireball-app { box-shadow: 0 1px 2px rgba(46, 58, 59, 0.25)!important; }
 #outer.scrolling-messages-list, #inner.scrolling-messages-list { max-width: 100%!important; }
 .sendIcon.compose-bar { padding: 13px; margin: 0 12px 0 2px!important; }
 app-toolbar,#topBar.wb-empty-state-view { height: 51px!important; }
 app-toolbar.wireball-app { min-height: 40px!important; }
 #startChatButton.wireball-app, .conversation_item.conversations-view { padding: 10px 0!important; }
 #conversationName.wireball-app, #startChatButtonString.wireball-app { font-size: 14px!important; }
-/* #avatar.wb-avatar-image { height: 32px!important; width: 32px!important; } 
-iron-icon { width: 15px!important; height: 15px!important; } */
+#avatar.wb-avatar-image { height: 32px!important; width: 32px!important; }
+iron-icon { width: 15px!important; height: 15px!important; }
 #allo-logo.wireball-app, iron-icon.paper-icon-button { width: var(--iron-icon-width, 20px)!important; height: var(--iron-icon-height, 20px)!important; }
 .info.conversations-view h3.conversations-view { font-size: 14px!important; }
 nav.condensed.wireball-app:not(.open) #startChatButtonIcon.wireball-app { margin: 0 20px!important; }
@@ -32,15 +31,12 @@ nav.condensed.wireball-app:not(.open) #startChatButtonIcon.wireball-app { margin
 #scrollRight.wb-content-wizard, 
 #picker.wb-emoji-picker:not(.popped-out), { border-radius: 0px!important; }
 /* Dark Theme */
-body.darkMode { border-top: 1px solid rgb(68, 68, 66)!important; }
 body.darkMode { background-color: #141518!important; }
 body.darkMode .conversationHeader { background-color: #353536!important;}
 body.darkMode app-header-layout.wb-lightbox { background: rgba(0, 0, 0, 0.7)!important; }
 body.darkMode #info.wb-lightbox, body.darkMode #info.wb-lightbox relative-time.wb-lightbox { color: #FFFFFF!important; }
 body.darkMode app-header.wb-lightbox { background-color: #353536!important; border-bottom: none!important; }
 body.darkMode #leftBar { border-right: 1px solid #444442!important; background-color: #353536!important; }
-body.darkMode wb-empty-state-view { background-color: #353536!important; }
-body.darkMode #topBar.wb-empty-state-view { border-bottom: 1px solid #444442!important; }
 body.darkMode #library { border-top: 1px solid #444442!important; border-bottom: 1px solid #444442!important; }
 body.darkMode #scroller { background-color: #141518!important; }
 body.darkMode #chip { background-color: transparent!important; }
@@ -48,7 +44,6 @@ body.darkMode #textarea { color: #cfd8dc!important; }
 body.darkMode #startChatButtonString { color: #cfd8dc!important; }
 body.darkMode #compose { background-color: #353536!important; }
 body.darkMode #compose.compose-bar { border-top: 1px solid #444442!important; }
-body.darkMode #container.user-media-message, body.darkMode .conversationHeader.wireball-app { border-bottom: 1px solid rgb(68, 68, 66)!important; }
 body.darkMode #pickerContainer.compose-bar { background: #141518!important; border-bottom: none!important; border-radius: 0px!important; }
 body.darkMode #container.wb-content-wizard, body.darkMode #menu.wb-emoji-picker { border-radius: 0px!important; border-top: none!important;}
 body.darkMode .separatorIcon.wb-content-wizard { --iron-icon-fill-color: #cfd8dc!important; }
