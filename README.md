@@ -10,7 +10,7 @@ A Chrome Extension aimed at modifying and improving on Allo for Web's user-inter
 
 ## To-Do
 - [x] "True" Dark Mode Theme
-- [ ] Disable/Enable Stickers button (I never use em :P)
+- [x] Optional new Window Mode
 - [ ] Disable/Enable Emoji button (For the crazy people)
 
 ## Current Comparisons 
