@@ -68,9 +68,6 @@ function load_options() {
 		}
 	});
 }
-chrome.commands.onCommand.addListener(function(command) { 
-	load_window();
-});
 var save = document.getElementById("save");
 save.addEventListener('click', save_options);
 document.addEventListener('DOMContentLoaded', load_options);

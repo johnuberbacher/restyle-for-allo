@@ -16,16 +16,20 @@
     "default_title": "ReStyle for Allo",
     "default_popup": "popup.html"
   }, 
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
   "commands": {
 	  "open-window": {
 		"suggested_key": {
-		  "default": "Alt+A"
+		  "default": "Ctrl+Shift+A"
 		},
-		"description": "Open Allo Window",
+		"description": "Open Allo in new window",
 		"global": true
 	  }
-	},
-  "permissions": [ "https://allo.google.com/web", "storage" ],
+   },
+  "permissions": [ "https://allo.google.com/web", "tabs", "storage" ],
   "content_scripts": [{
     "matches": ["https://allo.google.com/web"],
     "css": ["style.css"],
