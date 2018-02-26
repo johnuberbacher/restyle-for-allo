@@ -16,6 +16,7 @@ wireball-app { --conversations-width-full: 300px!important; --info-width: 300px!
 .sendIcon.compose-bar { padding: 13px; margin: 0 12px 0 2px!important; }
 app-toolbar,#topBar.wb-empty-state-view { height: 51px!important; }
 app-toolbar.wireball-app { min-height: 40px!important; }
+nav.condensed.wireball-app:not(.open) { width: 82px!important; }
 app-toolbar.wireball-app avatar.wb-avatar-image, nav.condensed.wireball-app:not(.open) app-toolbar.leftHeader.wireball-app .avatar-button.wireball-app wb-avatar.wireball-app #avatar.wb-avatar-image { height: 40px!important; width: 40px!important; } 
 wireball-app-status#statusAboveConversationList { margin-bottom: 0px; }
 #startChatButton.wireball-app { position: absolute; bottom: 0px; top: auto; text-align: center;}
